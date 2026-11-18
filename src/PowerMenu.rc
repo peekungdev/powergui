@@ -1,0 +1,30 @@
+#include <winres.h>
+#include "resource.h"
+
+IDI_APP ICON "..\\res\\PowerMenu.ico"
+1 RT_MANIFEST "PowerMenu.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION PM_VERSION_MAJOR, PM_VERSION_MINOR, PM_VERSION_PATCH, 0
+ PRODUCTVERSION PM_VERSION_MAJOR, PM_VERSION_MINOR, PM_VERSION_PATCH, 0
+ FILEFLAGSMASK 0x3fL
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "PowerMenu - hold-to-confirm power button menu"
+            VALUE "FileVersion", PM_VERSION_STR
+            VALUE "InternalName", "PowerMenu"
+            VALUE "OriginalFilename", "PowerMenu.exe"
+            VALUE "ProductName", "PowerMenu"
+            VALUE "ProductVersion", PM_VERSION_STR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
