@@ -4,6 +4,12 @@
 to sleep, a menu asks what you want to do. Anything that turns the PC off has to be held for
 3 seconds, so a stray press never costs you your work.
 
+![The PowerGUI menu](docs/menu.png)
+
+Holding an option fills its ring; let go before it's full and nothing happens:
+
+![Holding Power Off, halfway](docs/menu-hold.png)
+
 ## What you get
 
 | Option | Mouse / touch | Keyboard |
